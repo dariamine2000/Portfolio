@@ -1,0 +1,29 @@
+.toolbar {
+  /* Welcome */
+height: 28px;
+left: 12px;
+top: 10px;
+border: solid;
+/* Theme 2 / Subhead 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+display: flex;
+flex-wrap: wrap;
+/* Theme 2 / Neutral 1 */
+color: #28352F;
+
+
+/* Inside auto layout */
+margin: 0px 0px;
+
+/*changing list style*/
+list-style: none;
+
+}
+.toolbar .welcome {
+    flex: 1;
+}
