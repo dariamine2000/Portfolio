@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+.toolbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Inter';
+  ont-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align:left;
+}
+
+.toolbar li {
+  flex-direction: column;
+  flex: 95%;
+  justify-content: space-between;
+
+}
+
+.toolbar .menu-button {
+  flex: 1;
+}
+
+.headline {
+/* Theme 2 / H2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* Neutrals/N800 */
+color: #172B4D;
+/*flex*/
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+height: 100vh;
+justify-content: center;
+}
+.headline p {
+}
+.headline #Hey {
+}
+.headline #Iam {
+  color: rgb(22, 192, 22);
+}
