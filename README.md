@@ -20,7 +20,8 @@ Install
 Usage
 Run tests
 Deployment
-Authors
+
+
 👤 Amine Dari
 
 GitHub: @dariamine2000
