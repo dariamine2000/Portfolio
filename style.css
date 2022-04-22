@@ -1,8 +1,13 @@
+html {
+  padding: 24px;
+}
+
 .toolbar {
   /* Welcome */
   height: 28px;
   left: 12px;
   top: 10px;
+  padding-left: 0%;
 
   /* Theme 2 / Subhead 1 */
   font-family: 'Inter', sans-serif;
@@ -13,36 +18,49 @@
 
   /* identical to box height, or 140% */
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 
   /* Theme 2 / Neutral 1 */
   color: #28352f;
-
-  /* Inside auto layout */
-  margin: 0% 0%;
 
   /* changing list style */
   list-style: none;
 }
 
 .toolbar .welcome {
-  flex: 1;
+}
+a {
+  text-decoration: none;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
+  text-align: left;
+  margin-top: 114 px;
+}
+
+.headline h1 {
+  width: 70%;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0%;
+
 }
 
 .headline p {
   /* Supporting Text */
-  width: 327px;
   height: 164px;
   left: 24px;
   top: 314px;
+  margin: 2px;
 
   /* Theme 2 / Body Reguler 1 */
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;   
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -57,13 +75,13 @@
 .headline span {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
   /* Neutrals/N500 */
-  margin-top: 0;
-  color: blue;
+  margin-top: 18px;
+  color: #7F8CFF;
 }
 
 .headline img {
@@ -74,4 +92,15 @@
 body {
   background-image: url("/header-shapes.png");
   background-repeat: no-repeat;
+}
+
+.Social {
+  margin-top: 18px;
+  width: 136px;
+  margin-top: 0px;
+  list-style: none;
+  padding: 2px 2px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
 }
