@@ -34,8 +34,11 @@ a {
 .headline {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: left;
   margin-top: 114 px;
+  height: 718px;
 }
 
 .headline h1 {
@@ -49,7 +52,6 @@ a {
 
 .headline p {
   /* Supporting Text */
-  height: 164px;
   left: 24px;
   top: 314px;
   margin: 2px;
@@ -68,6 +70,7 @@ a {
 }
 
 .headline span {
+  padding-top: 2px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
