@@ -69,5 +69,8 @@
 .headline img {
   margin-top: 10px;
   width: fit-content;
-  align-self: flex-start;
+}
+
+body {
+  background-image: url("/header-shapes.png");
 }
