@@ -24,7 +24,9 @@ Authors
 👤 Amine Dari
 
 GitHub: @dariamine2000
+
 LinkedIn: dariamine2000
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
