@@ -101,3 +101,138 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/* Work section */
+.Work {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Work h3 {
+  /* Button /Normal */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+  margin-left: 15px;
+
+  /* Primary/B500 */
+  color: #396df2;
+  width: fit-content;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 120px;
+}
+
+.item {
+  display: grid;
+  grid-template-rows: 220px 0fr 0fr 0fr;
+  border: 2px solid rgb(252, 245, 245);
+  border-radius: 8px;
+}
+
+.item img {
+  grid-area: 1/1;
+}
+
+.item h1 {
+  grid-area: 2/1;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.List {
+  grid-area: 3/1;
+  margin-top: 20px;
+  margin-left: 0%;
+  padding-left: 0%;
+  padding-right: 75px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+
+  /* Caption / 1 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* Neutrals/N100 */
+  color: #7a869a;
+}
+
+.List .List-1st {
+  list-style: none;
+
+  /* Caption / 1 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* Neutrals/N600 */
+  color: #344563;
+}
+
+.item p {
+  padding-top: 0%;
+  margin-top: 20px;
+
+  /* Body / 3 */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  /* Neutrals/N600 */
+  color: #344563;
+
+  /* grid */
+  grid-area: 4/1;
+  text-align: left;
+}
+
+/* Work List html css javaScript */
+.Work-List {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding-left: 0%;
+  padding-right: 75px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.Work-List li {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -15px;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  position: static;
+  width: fit-content;
+
+  /* Button / Small */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* Primary/B400 */
+  color: #6070ff;
+}
